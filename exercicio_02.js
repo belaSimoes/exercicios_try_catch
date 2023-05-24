@@ -10,7 +10,11 @@ class Estudante {
   }
 
   mostrarAtributos() {
-    return this.atributos();
+    try{
+      return this.atributos();
+      } catch (erro){
+        console.log(erro.stack)
+      }
   }
 
   atributos() {
