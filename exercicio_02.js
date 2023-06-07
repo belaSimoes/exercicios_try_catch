@@ -35,7 +35,7 @@ class Estudante {
 }
 
 
-const estudante = new Estudante("", 16, "3A");
+const estudante = new Estudante("", "", "");
 
 const atributos = estudante.mostrarAtributos();
 

@@ -33,7 +33,7 @@ class Animal {
   }
 }
 
-const meuAnimal = new Animal("", 3, "cachorro");
+const meuAnimal = new Animal("", "", "");
 const atributos = meuAnimal.mostrarAtributos();
 
 console.log(atributos)

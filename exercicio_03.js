@@ -34,7 +34,7 @@ class NerdIF {
 }
 }
 
-const aluno = new NerdIF("", "Homem-Aranha", 9.5);
+const aluno = new NerdIF("", "", "");
 const atributos = aluno.retornarAtributos();
 
 //console.log(atributos.estudante); 
