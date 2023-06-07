@@ -39,6 +39,7 @@ const estudante = new Estudante("", "", "");
 
 const atributos = estudante.mostrarAtributos();
 
+console.log(atributos)
 //console.log(atributos.nome);   
 //console.log(atributos.idade);  
 //console.log(atributos.turma); 
