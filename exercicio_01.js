@@ -21,7 +21,7 @@ class Animal {
   } 
 
   atributos() {
-    if (this.nome != ""){
+    if (this.nome != "" && this.idade != "" && this.especie != "" ){
       return {
         nome: this.nome,
         idade: this.idade,
